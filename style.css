@@ -1,5 +1,4 @@
 body{
-    text-align: center;
     background: #cccccc;
 }
 
@@ -9,4 +8,7 @@ p{
 
 em strong{
     color: #FF0000;
+}
+h1{
+    text-align: center;
 }
