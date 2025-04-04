@@ -13,6 +13,7 @@ nav li{
 }
 
 nav a{
+    color: aliceblue;
     text-transform: uppercase;
     background-color: #474747;
     font-weight: bold;
