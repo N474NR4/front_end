@@ -1,3 +1,8 @@
+body{
+	background-color: rgb(29, 29, 29);
+	color: aliceblue;
+}
+
 header {
 	background: #474747;
 	padding: 20px 0;
@@ -47,12 +52,12 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid aliceblue;
 	border-radius: 10px;
 }
 
 .produtos li:hover {
-	border-color: #eba61d;
+	border-color: darkorange;
 }
 
 .lP:active {
@@ -102,20 +107,22 @@ form label, form legend {
 }
 
 .input-padrao {
+	background-color: #474747;
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
+
 .lPr{
 	text-transform: uppercase;
-	color: black;
+	color: aliceblue;
 	font-weight: bold;
 	font-size: 22px;
 }
 
 .lPr:hover {
-	color: #C78C19;
+	color: darkorange;
 	text-decoration: underline;
 }
 
@@ -124,6 +131,7 @@ form label, form legend {
 }
 
 .enviar {
+	border-radius: 10px;
 	width:40%;
 	padding: 15px 0;
 	background: orange;
@@ -147,11 +155,20 @@ table {
 
 thead {
 	background: #555555;
-	color: white;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 }
 
 td, th {
-	border: 1px solid #000000;
+	border: 1px solid #fdfcfc;
 	padding: 8px 15px;
+}
+
+.select{
+	border-radius: 5pt;
+	color: aliceblue;
+	background-color: #474747;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
 }
