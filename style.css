@@ -1,5 +1,5 @@
 header {
-	background: #BBBBBB;
+	background: #474747;
 	padding: 20px 0;
 }
 
@@ -22,14 +22,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: aliceblue;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #eba61d;
 	text-decoration: underline;
 }
 
@@ -52,15 +52,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color: #eba61d;
 }
 
-.produtos li:active {
+.lP:active {
 	border-color: #088C19;	
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
 }
 
 .produtos h2 {
@@ -80,7 +76,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("img/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -110,6 +106,17 @@ form label, form legend {
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+}
+.lPr{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.lPr:hover {
+	color: #C78C19;
+	text-decoration: underline;
 }
 
 .checkbox {
