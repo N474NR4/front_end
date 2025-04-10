@@ -1,6 +1,6 @@
 body{
-	background-color: rgb(29, 29, 29);
-	color: aliceblue;
+	background-color: rgb(255, 255, 255);
+	color: aliceblue
 }
 
 header {
@@ -39,20 +39,21 @@ nav a:hover {
 }
 
 .produtos {
-	width: 940px;
+	width: 1000px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 60px 0;
 }
 
 .produtos li {
+	color: black;
 	display: inline-block;
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
+	padding: 30px;
 	margin: 0 1.5%;
-	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid aliceblue;
+	border: 2px solid rgb(0, 0, 0);
 	border-radius: 10px;
 }
 
@@ -116,7 +117,7 @@ form label, form legend {
 
 .lPr{
 	text-transform: uppercase;
-	color: aliceblue;
+	color: rgb(0, 0, 0);
 	font-weight: bold;
 	font-size: 22px;
 }
