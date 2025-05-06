@@ -107,6 +107,10 @@ form label, form legend {
 	margin: 0 0 10px;
 }
 
+label{
+	color: black;
+}
+
 .input-padrao {
 	display: block;
 	margin: 0 0 20px;
